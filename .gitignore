@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 训练产物（权重约 46MB，按 README 步骤重新训练即可复现）
+*.pth
+
+# 数据集（首次运行自动下载）
+data/
+
+# 生成输出
+生成结果/
+训练效果/
+gen_*.png
+
+# 环境与编辑器
+.venv/
+venv/
+.idea/
+.vscode/
+*.Zone.Identifier
